@@ -1,21 +1,21 @@
-#define _CRT_SECURE_NO_WARNINGS
+п»ї#define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 #include <locale.h>
 
 int task1() {
     int num, num2;
     setlocale(LC_ALL, "Russian");
-    puts("введите число А");
+    puts("РІРІРµРґРёС‚Рµ С‡РёСЃР»Рѕ Рђ");
     scanf("%d", &num);
-    puts("введите число В");
+    puts("РІРІРµРґРёС‚Рµ С‡РёСЃР»Рѕ Р’");
     scanf("%d", &num2);
-    printf("Введено число А %d \n", num);
-    printf("Введено число B %d \n", num2);
-    printf("Сумма %d + %d = %d \n", num, num2, num + num2);
-    printf("разность %d - %d = %d\n", num, num2, num - num2);
-    printf("Произведение %d * %d = %d\n ", num, num2, num * num2);
-    printf("частное  %d/%d = %d\n ", num, num2, num / num2);
-    printf("остатон  %d/%d = %d \n", num, num2, num % num2);
+    printf("Р’РІРµРґРµРЅРѕ С‡РёСЃР»Рѕ Рђ %d \n", num);
+    printf("Р’РІРµРґРµРЅРѕ С‡РёСЃР»Рѕ B %d \n", num2);
+    printf("РЎСѓРјРјР° %d + %d = %d \n", num, num2, num + num2);
+    printf("СЂР°Р·РЅРѕСЃС‚СЊ %d - %d = %d\n", num, num2, num - num2);
+    printf("РџСЂРѕРёР·РІРµРґРµРЅРёРµ %d * %d = %d\n ", num, num2, num * num2);
+    printf("С‡Р°СЃС‚РЅРѕРµ  %d/%d = %d\n ", num, num2, num / num2);
+    printf("РѕСЃС‚Р°С‚РѕРЅ  %d/%d = %d \n", num, num2, num % num2);
 }
 
 int task2()
@@ -27,22 +27,22 @@ int task2()
     float pl = 2.32166;
     float result;
     float res2;
-    puts("введите число\n");
+    puts("РІРІРµРґРёС‚Рµ С‡РёСЃР»Рѕ\n");
     scanf("%d", &dym);
     result = D * dym;
     res2 = D * 2.32166;
-    printf(" % d дюймов – это %.1f см\n ", dym, result);
-    printf(" % d дюймов – это %.1f pulgada \n", dym, res2);
-    puts("введите число метров\n");
+    printf(" % d РґСЋР№РјРѕРІ вЂ“ СЌС‚Рѕ %.1f СЃРј\n ", dym, result);
+    printf(" % d РґСЋР№РјРѕРІ вЂ“ СЌС‚Рѕ %.1f pulgada \n", dym, res2);
+    puts("РІРІРµРґРёС‚Рµ С‡РёСЃР»Рѕ РјРµС‚СЂРѕРІ\n");
     scanf("%d", &m);
-    printf(" % d метров – это %.1f морских миль %d метров – это %.1f сухопутных миль \n", m, m * 1.852, m, m * 1.609);
+    printf(" % d РјРµС‚СЂРѕРІ вЂ“ СЌС‚Рѕ %.1f РјРѕСЂСЃРєРёС… РјРёР»СЊ %d РјРµС‚СЂРѕРІ вЂ“ СЌС‚Рѕ %.1f СЃСѓС…РѕРїСѓС‚РЅС‹С… РјРёР»СЊ \n", m, m * 1.852, m, m * 1.609);
 }
 int task3() {
     setlocale(LC_ALL, "Russian");
     double a, b;
-    printf("Введите число a: ");
+    printf("Р’РІРµРґРёС‚Рµ С‡РёСЃР»Рѕ a: ");
     scanf("%lf", &a);
-    printf("Введите число b: ");
+    printf("Р’РІРµРґРёС‚Рµ С‡РёСЃР»Рѕ b: ");
     scanf("%lf", &b);
     printf("_________________________________________________________\n");
     printf("| %-20s | %-20s | %-20s |\n", "a * b", "a + b", "a - b");
